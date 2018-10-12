@@ -46,8 +46,7 @@
     "injectmock": "^2.0.0",
     "pon-context": "^3.0.2",
     "pon-doc": "^2.0.1",
-    "shelljs": "^0.8.2",
-    "sugos-travis": "^2.0.7"
+    "shelljs": "^0.8.2"
   },
   "engines": {
     "node": ">=8",
