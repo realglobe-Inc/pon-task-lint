@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "standard"
+  ],
+  "rules": {
+    "comma-dangle": "off"
+  },
+  "parser": "babel-eslint"
+}

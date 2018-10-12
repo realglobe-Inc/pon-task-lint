@@ -1,0 +1,56 @@
+{
+  "name": "pon-task-lint",
+  "version": "1.0.0",
+  "description": "Pon task for lint",
+  "main": "lib",
+  "browser": "shim/browser",
+  "scripts": {
+    "prepare": "node ./ci/build.js && node ./ci/shim.js ",
+    "test": "node ./ci/test.js"
+  },
+  "repository": "realglobe-Inc/pon-task-lint",
+  "keywords": [
+    "Pon"
+  ],
+  "author": {
+    "name": "FujiHaruka",
+    "email": "fujiharuka@realglobe.jp",
+    "url": "https://github.com/FujiHaruka"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/realglobe-Inc/pon-task-lint/issues"
+  },
+  "homepage": "https://github.com/realglobe-Inc/pon-task-lint#readme",
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard-jsx": "^6.0.2",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "devDependencies": {
+    "ababel": "^4.0.1",
+    "amocha": "^4.0.0",
+    "ape-doc": "^2.0.4",
+    "ape-formatting": "^1.0.2",
+    "ape-releasing": "^4.0.4",
+    "ape-tasking": "^4.0.9",
+    "ape-tmpl": "^6.0.8",
+    "ape-updating": "^4.1.0",
+    "coz": "^6.0.20",
+    "injectmock": "^2.0.0",
+    "pon-context": "^2.0.1",
+    "pon-doc": "^2.0.1",
+    "shelljs": "^0.8.2",
+    "sugos-travis": "^2.0.7"
+  },
+  "engines": {
+    "node": ">=8",
+    "npm": ">=4"
+  }
+}
